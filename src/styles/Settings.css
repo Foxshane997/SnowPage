@@ -1,0 +1,27 @@
+/* Update your Settings.css with the new background color */
+
+.settings-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.settings-container {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7); /* Match the navbar and clock */
+  color: white; /* Ensure text is readable on dark background */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.setting-item {
+  margin-bottom: 15px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
